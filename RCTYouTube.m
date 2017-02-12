@@ -7,15 +7,9 @@
 //
 
 #import "RCTYouTube.h"
-#if __has_include(<React/RCTAssert.h>)
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventDispatcher.h>
 #import <React/UIView+React.h>
-#else // backwards compatibility for RN < 0.40
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
-#import "UIView+React.h"
-#endif
 
 @implementation RCTYouTube
 {
